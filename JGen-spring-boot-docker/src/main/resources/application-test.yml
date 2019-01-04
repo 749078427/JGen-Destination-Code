@@ -1,0 +1,11 @@
+mybatis:
+  mapperLocations: =classpath:mapper/*.xml
+server:
+  context-path: /spring
+  port: 8082
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: 123456
+    url: jdbc:postgresql://localhost:5432/javatest?useSSL=false
+    username: postgres
